@@ -1,0 +1,189 @@
+
+h1, h2{
+  font-family:helvetica, arial, 'lucida grande', sans-serif;
+  font-weight: 800;
+  
+  h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+  }
+}
+h2{
+    color:#d00000;
+  }
+ p, a {
+
+font-family: 'Helvetica Neue Thin', 'HelveticaNeue-Thin', 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;
+  
+    p{
+      font-size: 14px;
+      font-weight: 800;
+    }
+    a {
+    font-size:14px;
+    font-weight: 200;
+
+    }
+}
+a{ color: white;
+    text-decoration: none;
+   
+  }
+   a:hover, a:focus{
+      color: silver;
+      text-decoration: none;
+    }
+.prof-img-styles{
+  width: 100%;
+  -webkit-filter: contrast(1) drop-shadow(8px 8px 20px black);
+}
+.main {
+    height: 590px;
+    padding-top: 55px;
+    background-image: url("../images/background/skyline-sf.jpg");
+    background-size: cover;
+    border-bottom: 20px solid black;
+    background-position: left center;
+  
+  p {
+  font-size: 26px;
+  font-weight: 200;  
+  margin-bottom: 40px;
+  }
+  
+  .btn{
+  background-color: #d00000;
+  color: white;
+  font-size:18px;
+  font-weight:100;
+  }
+}
+
+.section{
+padding: 5% 0 5% 0;
+text-align: center;
+  p{
+  font-size: 20px;
+  color: white;
+  text-shadow: -5px 5px 1px black;
+  }
+  ul{
+    padding:0;
+  }
+  li{
+         font-size: 20px;
+    color: white;
+    text-shadow: -5px 5px 1px black;
+    list-style: none;
+  }
+  .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #dbdbdb;
+  }
+}
+.para-image{
+position: relative;
+height: 100%;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;  
+}
+#one{
+background-image: url("../images/background/brick-wall-1.jpg");
+}
+#two{
+background-image: url("../images/background/brick-wall-2.jpg");
+}
+#three{
+background-image: url("../images/background/brick-wall-3.jpg");
+}
+#four{
+background-image: url("../images/background/brick-wall-1.jpg");
+}
+#five{
+background-image: url("../images/background/brick-wall-1.jpg");
+}
+.container {
+  max-width:982px;
+}
+.store {
+text-align: center;
+border-bottom: 0px;
+padding-bottom:100px
+}
+.footer {
+border-top: 1px solid #dbdbdb;
+background-color: #f3f3f3;
+padding: 20px 0px 80px;
+  h4{
+    color:#d00000;
+    float: left;
+    clear: both;
+  }
+  ul {
+  list-style-type: none;
+  padding-left: 0;
+  }
+  li {
+  color: black;
+    font-weight: 600;
+    font-size: 20px;
+    float: left;
+  clear:both;
+  }
+  a{
+    color: black;
+  }
+  a:hover, a:focus{
+      color: silver;
+      text-decoration: none;
+    }
+  img{
+    height: 24.5px;
+  }
+}
+.align{
+      height: 100%;
+    width: 100%;
+    position: relative;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    .fixed{
+    width: 11%;
+    position: relative;
+    bottom: 30%;
+    right:50px;
+    }
+}
+.hr {
+position:relative;
+z-index:2;
+background-color: #dbdbdb;
+height: 400px;
+width: 100%;
+-webkit-box-shadow: 0px 0px 36px 24px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 36px 24px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 36px 24px rgba(0,0,0,0.75);
+  p{
+            font-size: 17px;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 500px) {
+  .col-md-6 img {
+  padding: 50px;
+  width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .footer .container{
+  text-align:center;
+
+    top: 20px;
+    position: relative;
+}
+}
